@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="800.0" stylesheets="@hellojavaFx/StyleCSS.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hellojavaFx.AdminController">
+   <children>
+      <Text fill="WHITE" layoutX="272.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Remove Member" textAlignment="CENTER" wrappingWidth="212.4267578125">
+         <font>
+            <Font name="Times New Roman" size="27.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="205.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="209.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="id" layoutX="356.0" layoutY="153.0">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="name" layoutX="356.0" layoutY="200.0">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </TextField>
+      <Button layoutX="336.0" layoutY="444.0" mnemonicParsing="false" onAction="#RemoveStudentbutton" text="Remove Member">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="label" layoutX="272.0" layoutY="334.0" prefHeight="48.0" prefWidth="306.0" textAlignment="JUSTIFY">
+         <font>
+            <Font name="Times New Roman Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="74.0" layoutY="588.0" mnemonicParsing="false" onAction="#returnToAdminView" text="Return" />
+      <Button layoutX="652.0" layoutY="588.0" mnemonicParsing="false" onAction="#ResetFields" text="Reset" />
+   </children>
+</AnchorPane>

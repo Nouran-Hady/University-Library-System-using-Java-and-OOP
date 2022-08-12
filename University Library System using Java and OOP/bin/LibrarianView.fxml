@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="800.0" stylesheets="@hellojavaFx/StyleCSS.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hellojavaFx.SceneController">
+   <children>
+      <Button alignment="CENTER" layoutX="46.0" layoutY="158.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="40.0" prefWidth="150.0" text="Add Books" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font>
+         <padding>
+            <Insets bottom="9.0" left="9.0" right="9.0" top="9.0" />
+         </padding>
+      </Button>
+      <Button alignment="CENTER" layoutX="46.0" layoutY="322.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="40.0" prefWidth="150.0" text="Issue Book" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font>
+         <padding>
+            <Insets bottom="9.0" left="9.0" right="9.0" top="9.0" />
+         </padding>
+      </Button>
+      <Button alignment="CENTER" layoutX="46.0" layoutY="472.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="40.0" prefWidth="150.0" text="View Books" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font>
+         <padding>
+            <Insets bottom="9.0" left="9.0" right="9.0" top="9.0" />
+         </padding>
+      </Button>
+      <Button alignment="CENTER" layoutX="603.0" layoutY="322.0" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="40.0" prefWidth="150.0" text="Delete Books">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="603.0" layoutY="472.0" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="40.0" prefWidth="150.0" text="Return Book">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="324.0" layoutY="322.0" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="40.0" prefWidth="150.0" text="View Issued Books">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font>
+      </Button>
+      <Text fill="WHITE" fontSmoothingType="LCD" layoutX="326.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Librarian View" textAlignment="CENTER" underline="true">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font>
+      </Text>
+      <Button layoutX="366.0" layoutY="608.0" mnemonicParsing="false" onAction="#switch_to_LoginWindow" text="Logout">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="603.0" layoutY="158.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="40.0" prefWidth="150.0" text="Search For Book" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font>
+         <padding>
+            <Insets bottom="9.0" left="9.0" right="9.0" top="9.0" />
+         </padding>
+      </Button>
+   </children>
+</AnchorPane>

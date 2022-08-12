@@ -1,0 +1,26 @@
+.root{
+
+    -fx-font-size: 16pt;
+    -fx-font-family: "Courier New";
+-fx-background: #034f84;
+    
+}
+
+
+
+.button {
+    -fx-font: 16px "Serif";
+    -fx-background-color: #f7786b;
+    -fx-color: #f7cac9;
+-fx-font-color: #ffffff;
+    -fx-background-position: center;
+}
+.label{
+    -fx-font: 16px "Serif";
+    -fx-text-alignment: center;
+}
+
+.text{
+    -fx-text-alignment: center;
+    -fx-color: #ffffff;
+}
